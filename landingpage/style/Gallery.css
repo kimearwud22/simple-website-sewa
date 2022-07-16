@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: yellow;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: none;
+  float: right;
+  margin-right: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 1px solid transparent;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+ul li a:hover {
+  background-color: white 255, 255, 255;
+  color: black;
+}
+
+ul li.active {
+  background-color: white;
+  color: black;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  color: white;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section2 {
+  background-color: #06283D;
+  padding: 60px 0;
+  margin-top: none;
+}
+
+.title-gallery {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.gallery {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: black;
+  padding: 150px 100;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=Gallery.css.map */

@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-image: url("../img/car-1.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: none;
+  float: right;
+  margin-right: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 1px solid transparent;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+ul li.active {
+  background-color: white;
+  color: black;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  color: white;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid white;
+  text-decoration: none;
+  margin-top: 60px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* section */
+.section1 {
+  background-color: #06283D;
+  padding: 50px 0;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid-text1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.grid-text1 button {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: black;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.grid-item2 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: black;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.section2 {
+  background-color: blue;
+  padding: 60px 0;
+  margin-top: none;
+}
+
+.title-gallery {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.gallery {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid white;
+  float: left;
+  width: 400px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid1 {
+  background-color: black;
+  border-radius: 10px;
+  width: 95%;
+  height: 200px;
+  padding: 20px 20px;
+  font-size: 20px;
+  color: white;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid1 h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.grid1 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+.grid2 {
+  background-color: white;
+  width: 90%;
+  height: 200px;
+  padding: 20px 20px;
+  font-size: 20px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  margin-top: 50px;
+}
+
+.grid2 button {
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  float: left;
+  margin-left: 20px;
+}
+
+.section4 {
+  background-color: #06283D;
+}
+
+.section4 .grid2 {
+  background-color: #06283D;
+}
+
+.section4 .grid2 button {
+  background-color: blue;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  float: left;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+}
+
+/* about.html */
+/*# sourceMappingURL=index.css.map */
